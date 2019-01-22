@@ -113,3 +113,10 @@ dart/doc/api/
 Cargo.lock
 .corpus**
 .seed**
+
+.buckd
+buck-out
+.buckconfig.local
+.buckconfig.d
+buckaroo
+buckaroo_macros.bzl

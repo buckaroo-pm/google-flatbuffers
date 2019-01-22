@@ -1,0 +1,13 @@
+cxx_binary(
+  name = 'cpp',
+  header_namespace = '',
+  headers = [
+    'monster_generated.h',
+  ],
+  srcs = [
+    'sample_text.cpp',
+  ],
+  deps = [
+    '//:flatbuffers',
+  ],
+)
